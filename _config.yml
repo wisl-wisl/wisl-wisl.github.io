@@ -1,0 +1,33 @@
+exclude: ['README.md']
+permalink: pretty
+title: 'WISL'
+
+google_analytics_id: "G-06888T50J0"
+homepage:
+  show_call_box: false
+logo:
+  mobile: "images/logo/wisl.png"
+  desktop: "images/logo/wisl.png"
+  desktop_height: "52px"
+footer:
+  copyright_text: '© WISL 2021'
+
+seo:
+  meta_og_title: "WISL"
+  meta_og_type: "website"
+  meta_og_url: "https://wisl.earth"
+  meta_og_description: ""
+
+collections:
+  services:
+    output: false
+  team:
+    output: false
+    
+sass:
+  indentWidth: 4
+  style: compact # possible values: nested expanded compact compressed
+  precision: 10
+
+plugins:
+  - jekyll-environment-variables
