@@ -3,12 +3,12 @@
 ---
 
 // Colors
-$primary: #1e2848;
-$secondary: #19b1bb;
-$black: #2f2f41;
+$primary: #4c54d2;
+$secondary: darken($primary, 18%);
+$black: #000000;
 $white: #ffffff;
 $white-offset: #fff6f8;
-$steel: #5C5A5A;
+$steel: #202100;
 
 // Links
 $link-color: $primary;
@@ -23,7 +23,7 @@ $font-family-heading: 'Playfair Display', serif, -apple-system;
 // Footer
 $footer-background-color: $primary;
 $footer-text-color: $white;
-$sub-footer-background-color: darken($primary, 10%);
+$sub-footer-background-color: $black;
 $sub-footer-text-color: $white;
 
 // Bootstrap

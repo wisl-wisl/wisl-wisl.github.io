@@ -1,7 +1,7 @@
 .call {
   position: relative;
   overflow: hidden;
-  background-color: $white-offset;
+  background-color: $primary;
   border-radius: 4px;
   // box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
   width: 100%;
@@ -36,10 +36,12 @@
   }
   .call-phone {
     margin-bottom: 5px;
+    color: $white;
   }
   .call-email {
+    color: $white;
     a {
-      color: $black;
+      color: $white;
     }
   }
   strong {
