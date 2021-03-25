@@ -1,6 +1,10 @@
 exclude: 
+  - CNAME
   - README.md
+  - SECURITY.md
   - Dockerfile
+  - docker*
+  - Gemfile
   - '*.yml'
   - '*.yaml'
 permalink: pretty
