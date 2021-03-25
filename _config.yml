@@ -1,5 +1,4 @@
 exclude: 
-  - CNAME
   - README.md
   - SECURITY.md
   - Dockerfile
