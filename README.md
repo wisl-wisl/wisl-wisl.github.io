@@ -4,13 +4,15 @@
   - [Development environment](#development-environment)
     - [Sample output](#sample-output)
   - [Github Actions](#github-actions)
+    - [CodeQL Analysis](#codeql-analysis)
+    - [Github Pages](#github-pages)
   - [Publishing exclusions](#publishing-exclusions)
 
 ## Development environment
 
-`docker-compose up` builds the `Dockerfile` and serves Jekyll locally on port `4000`
+`docker-compose up` builds the [Dockerfile](Dockerfile) and serves [Jekyll](https://jekyllrb.com/) at [http://localhost:4000/](http://localhost:4000/)
 
-`--livereload` is enabled, so that content updates are automatically refreshed
+[--livereload](https://jekyllrb.com/docs/configuration/options/#serve-command-options) is enabled, so that content updates are automatically refreshed
 
 ### Sample output
 
@@ -70,9 +72,15 @@ jekyll_1  |                     ...done in 0.773655022 seconds.
 ```
 
 ## Github Actions
+### CodeQL Analysis
+Push events to the `source` branch scan the code with [CodeQL](https://securitylab.github.com/tools/codeql/)
 
-Commits to the `source` branch trigger a Github action to deploy GitHub Pages
+See [codeql-analysis.yml](.github/workflows/codeql-analysis.yml)
+### Github Pages
+Push events to the `source` branch deploy the site to Github Pages
+
+See [github-pages.yml](.github/workflows/github-pages.yml)
 
 ## Publishing exclusions
 
-Exclude files from publishing by adding them to `exclude:` in `_config.yml`
+Exclude files from publishing by adding them to `exclude:` in [_config.yml](_config.yml)
