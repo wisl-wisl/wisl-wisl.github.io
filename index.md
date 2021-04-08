@@ -7,7 +7,7 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-***WISL*** (pronounced *whístle*) 
+***WISL*** (pronounced *wízzle*)
 
 Consulting services for financial services, telecommunications and government
 
