@@ -16,8 +16,6 @@
 
 ### Sample output
 
-![docker compose up screenshot](dockerComposeUp.png "docker compose up screenshot")
-
 ```console
 ❯ docker-compose up
 Recreating wisl-wislgithubio_jekyll_1 ... done
