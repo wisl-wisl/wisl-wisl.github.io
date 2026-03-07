@@ -14,7 +14,7 @@ intro_image_hide_on_mobile: false
 * Ubiquity Unifi systems
 * Linux and Open Source Software
 * Emergency support
-
-
-📅 Since 2014
-🇨🇦 West Chilcotin, BC
+  
+  
+📅 Since 2014  
+🇨🇦 West Chilcotin, British Columbia, Canada  
