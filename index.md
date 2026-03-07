@@ -7,8 +7,9 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-***West Information Services Limited***
-
+***West Information Services Limited***  
+🇨🇦 West Chilcotin, British Columbia, Canada  
+  
 * Consulting
 * Managed Services
 * Ubiquity Unifi systems
@@ -16,5 +17,4 @@ intro_image_hide_on_mobile: false
 * Emergency support
   
   
-📅 Since 2014  
-🇨🇦 West Chilcotin, British Columbia, Canada  
+📅 Serving our valued customers since 2014  
