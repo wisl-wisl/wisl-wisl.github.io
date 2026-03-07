@@ -7,10 +7,10 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-***WISL*** (pronounced *wízzle*)
+***West Information Services Limited***
 
-Consulting services for financial services and telecommunications
+* Consulting
+* Managed Services
+* Ubiquity Unifi systems
 
-Our focus is open source, continuous integration with infrastructure as code and contemporary observability/monitoring solutions
-
-Since 2014
+Since 2014 - West Chilcotin, BC
