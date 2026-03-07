@@ -1,7 +1,7 @@
 ---
 title: WISL
 layout: home
-description: WISL
+description: West Information Services Limited
 intro_image: "images/features/blacktusk.jpg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
@@ -12,5 +12,9 @@ intro_image_hide_on_mobile: false
 * Consulting
 * Managed Services
 * Ubiquity Unifi systems
+* Linux and Open Source Software
+* Emergency support
 
-Since 2014 - West Chilcotin, BC
+
+📅 Since 2014
+🇨🇦 West Chilcotin, BC
