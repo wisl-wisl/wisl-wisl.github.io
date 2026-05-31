@@ -1,4 +1,4 @@
-FROM ruby:2.7-alpine
+FROM ruby:3.3-alpine
 RUN apk add --no-cache build-base gcc bash cmake git
 RUN gem install bundler -v "~>1.0" 
 RUN gem install bundler jekyll
