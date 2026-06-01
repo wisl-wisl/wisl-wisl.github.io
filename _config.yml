@@ -45,6 +45,15 @@ collections:
     output: false
     
 sass:
-  indentWidth: 4
-  style: compact # possible values: nested expanded compact compressed
-  precision: 10
+  # dart-sass (jekyll-sass-converter 3.x) only supports expanded/compressed;
+  # the old libsass options (indentWidth/precision, style: compact) are ignored.
+  style: compressed
+  # Silence the deprecation warnings from the vendored Bootstrap 4 SCSS, which
+  # we don't maintain. quiet_deps covers warnings raised inside the imported
+  # files; silence_deprecations also covers the @import statements themselves
+  # (flagged in the root stylesheet). The real fix is a Bootstrap 5 upgrade.
+  quiet_deps: true
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
