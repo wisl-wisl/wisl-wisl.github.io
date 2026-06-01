@@ -20,10 +20,12 @@ footer:
   copyright_text: '© WISL 🌎'
 
 seo:
-  meta_og_title: "WISL"
+  meta_og_title: "WISL — West Information Services Limited"
   meta_og_type: "website"
   meta_og_url: "https://wisl.earth"
-  meta_og_description: ""
+  meta_og_image: "https://wisl.earth/images/features/blacktusk.jpg"
+  meta_og_description: "West Information Services Limited — IT consulting, managed services, Ubiquiti UniFi, Linux and open source, and emergency support in the West Chilcotin, British Columbia, Canada."
+  meta_twitter_card: "summary_large_image"
 
 collections:
   services:
