@@ -7,25 +7,36 @@ exclude:
   - '*.yml'
   - '*.yaml'
 permalink: pretty
-title: ''
+url: "https://wisl.earth"
+title: "WISL"
+tagline: "West Information Services Limited"
+description: "West Information Services Limited — IT consulting, managed services, Ubiquiti UniFi networks, Linux and open source software, and emergency support in the West Chilcotin, British Columbia, Canada."
+logo: "/images/logo/wisl.svg"
+social:
+  name: "West Information Services Limited"
+  links:
+    - "https://github.com/wisl-wisl/wisl-wisl.github.io"
+
+plugins:
+  - jekyll-environment-variables
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/images/features/blacktusk.jpg"
 
 google_analytics_id: "G-06888T50J0"
 homepage:
   show_call_box: false
-logo:
+brand:
   mobile: "images/logo/wisl.svg"
   desktop: "images/logo/wisl.svg"
   desktop_height: "80px"
 footer:
   copyright_text: '© WISL 🌎'
-
-seo:
-  meta_og_title: "WISL — West Information Services Limited"
-  meta_og_type: "website"
-  meta_og_url: "https://wisl.earth"
-  meta_og_image: "https://wisl.earth/images/features/blacktusk.jpg"
-  meta_og_description: "West Information Services Limited — IT consulting, managed services, Ubiquiti UniFi, Linux and open source, and emergency support in the West Chilcotin, British Columbia, Canada."
-  meta_twitter_card: "summary_large_image"
 
 collections:
   services:
