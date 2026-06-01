@@ -1,8 +1,13 @@
 main:
-    - name: ''
+  - name: "~/"
+    url: "/"
+    weight: 1
+  - name: "Contact"
+    url: "/contact/"
+    weight: 2
   # - name: "Blog"
   #   url: "/blog/"
-  #   weight: 2
+  #   weight: 3
 
 footer:
   - name: "~/"
