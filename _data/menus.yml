@@ -8,11 +8,3 @@ main:
   # - name: "Blog"
   #   url: "/blog/"
   #   weight: 3
-
-footer:
-  - name: "~/"
-    url: "/"
-    weight: 1
-  - name: "Contact"
-    url: "/contact/"
-    weight: 2
