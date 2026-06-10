@@ -14,6 +14,11 @@ Serving our valued customers since 2014
   
 * Consulting
 * Managed Services
-* Ubiquity Unifi systems
+* Ubiquiti UniFi systems
 * Linux and Open Source Software
 * Emergency support
+
+  
+**Contact**  
+☎️ [+1-250-900-1959](tel:+12509001959)  
+✉️ [info@wisl.earth](mailto:info@wisl.earth)

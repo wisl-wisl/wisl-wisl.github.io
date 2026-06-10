@@ -1,10 +1,2 @@
-main:
-  - name: "~/"
-    url: "/"
-    weight: 1
-  - name: "Contact"
-    url: "/contact/"
-    weight: 2
-  # - name: "Blog"
-  #   url: "/blog/"
-  #   weight: 3
+# Single-page landing site: no top-nav menu items.
+main: []
