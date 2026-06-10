@@ -29,8 +29,6 @@ defaults:
       image: "/images/features/blacktusk.jpg"
 
 google_analytics_id: "G-06888T50J0"
-homepage:
-  show_call_box: false
 brand:
   mobile: "images/logo/wisl.svg"
   desktop: "images/logo/wisl.svg"
